@@ -574,17 +574,17 @@
 <context>
     <name>OCC::Application</name>
     <message>
-        <location filename="../src/gui/application.cpp" line="190"/>
+        <location filename="../src/gui/application.cpp" line="192"/>
         <source>Error accessing the configuration file</source>
         <translation>Klaida gaunant prieigą prie konfigūracijos failo</translation>
     </message>
     <message>
-        <location filename="../src/gui/application.cpp" line="191"/>
+        <location filename="../src/gui/application.cpp" line="193"/>
         <source>There was an error while accessing the configuration file at %1. Please make sure the file can be accessed by your user.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../src/gui/application.cpp" line="194"/>
+        <location filename="../src/gui/application.cpp" line="196"/>
         <source>Quit %1</source>
         <translation type="unfinished"/>
     </message>
@@ -2023,7 +2023,7 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="334"/>
         <source>Trying to connect to %1 at %2...</source>
-        <translation type="unfinished"/>
+        <translation>Bandoma prisijungti prie %1 ties %2...</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="385"/>
@@ -2093,7 +2093,7 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="524"/>
         <source>Remote folder %1 created successfully.</source>
-        <translation type="unfinished"/>
+        <translation>Nuotolinis aplankas %1 sėkmingai sukurtas.</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="526"/>
@@ -2104,7 +2104,7 @@ Patariama jo nenaudoti.</translation>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="528"/>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="530"/>
         <source>The folder creation resulted in HTTP error code %1</source>
-        <translation type="unfinished"/>
+        <translation>Aplanko sukūrimas sąlygojo HTTP klaidos kodą %1</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="532"/>
@@ -2250,7 +2250,7 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/libsync/propagatedownload.cpp" line="938"/>
         <source>Error writing metadata to the database</source>
-        <translation type="unfinished"/>
+        <translation>Klaida rašant metaduomenis į duomenų bazę</translation>
     </message>
 </context>
 <context>
@@ -2318,7 +2318,7 @@ Patariama jo nenaudoti.</translation>
         <location filename="../src/libsync/propagatorjobs.cpp" line="272"/>
         <location filename="../src/libsync/propagatorjobs.cpp" line="277"/>
         <source>Error writing metadata to the database</source>
-        <translation type="unfinished"/>
+        <translation>Klaida rašant metaduomenis į duomenų bazę</translation>
     </message>
 </context>
 <context>
@@ -2395,7 +2395,7 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/libsync/propagateuploadng.cpp" line="403"/>
         <source>The local file was removed during sync.</source>
-        <translation type="unfinished"/>
+        <translation>Vietinis failas sinchronizavimo metu buvo pašalintas.</translation>
     </message>
     <message>
         <location filename="../src/libsync/propagateuploadng.cpp" line="414"/>
@@ -2428,7 +2428,7 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/libsync/propagateuploadv1.cpp" line="240"/>
         <source>The local file was removed during sync.</source>
-        <translation>Vietinis failas buvo ištrintas sinchronizavimo metu.</translation>
+        <translation>Vietinis failas sinchronizavimo metu buvo pašalintas.</translation>
     </message>
     <message>
         <location filename="../src/libsync/propagateuploadv1.cpp" line="251"/>
@@ -2508,12 +2508,12 @@ Patariama jo nenaudoti.</translation>
         <location filename="../src/gui/selectivesyncdialog.cpp" line="227"/>
         <location filename="../src/gui/selectivesyncdialog.cpp" line="277"/>
         <source>No subfolders currently on the server.</source>
-        <translation type="unfinished"/>
+        <translation>Šiuo metu serveryje nėra jokių poaplankių.</translation>
     </message>
     <message>
         <location filename="../src/gui/selectivesyncdialog.cpp" line="279"/>
         <source>An error occurred while loading the list of sub folders.</source>
-        <translation type="unfinished"/>
+        <translation>Įkeliant poaplankių sąrašą, įvyko klaida.</translation>
     </message>
 </context>
 <context>
@@ -2778,7 +2778,7 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/gui/creds/shibbolethcredentials.cpp" line="259"/>
         <source>You must sign in as user %1</source>
-        <translation type="unfinished"/>
+        <translation>Privalote prisijungti kaip naudotojas %1</translation>
     </message>
 </context>
 <context>
@@ -3005,7 +3005,7 @@ Patariama jo nenaudoti.</translation>
         <location filename="../src/gui/sslerrordialog.cpp" line="177"/>
         <location filename="../src/gui/sslerrordialog.cpp" line="179"/>
         <source>&amp;lt;not specified&amp;gt;</source>
-        <translation type="unfinished"/>
+        <translation>&amp;lt;nenurodyta&amp;gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/sslerrordialog.cpp" line="180"/>
@@ -3043,7 +3043,7 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/gui/sslerrordialog.cpp" line="193"/>
         <source>Expiration Date: %1</source>
-        <translation type="unfinished"/>
+        <translation>Galioja iki: %1</translation>
     </message>
     <message>
         <location filename="../src/gui/sslerrordialog.cpp" line="197"/>
@@ -3137,7 +3137,7 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/libsync/syncengine.cpp" line="148"/>
         <source>CSync unspecified error.</source>
-        <translation type="unfinished"/>
+        <translation>Nenurodyta CSync klaida.</translation>
     </message>
     <message>
         <location filename="../src/libsync/syncengine.cpp" line="151"/>
@@ -3212,12 +3212,12 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/libsync/syncengine.cpp" line="503"/>
         <source>The file name is a reserved name on this file system.</source>
-        <translation type="unfinished"/>
+        <translation>Šis failo pavadinimas šioje failų sistemoje yra rezervuotas.</translation>
     </message>
     <message>
         <location filename="../src/libsync/syncengine.cpp" line="508"/>
         <source>Filename contains trailing spaces.</source>
-        <translation type="unfinished"/>
+        <translation>Failo pavadinime yra galiniai tarpai.</translation>
     </message>
     <message>
         <location filename="../src/libsync/syncengine.cpp" line="511"/>
@@ -3474,7 +3474,7 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="303"/>
         <source>Signed out</source>
-        <translation type="unfinished"/>
+        <translation>Atsijungta</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="307"/>
@@ -3952,7 +3952,7 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="32"/>
         <source>Downloaded</source>
-        <translation type="unfinished"/>
+        <translation>Atsisiųsta</translation>
     </message>
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="34"/>
@@ -3967,22 +3967,22 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="39"/>
         <source>Deleted</source>
-        <translation type="unfinished"/>
+        <translation>Ištrinta</translation>
     </message>
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="42"/>
         <source>Moved to %1</source>
-        <translation type="unfinished"/>
+        <translation>Perkelta į %1</translation>
     </message>
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="44"/>
         <source>Ignored</source>
-        <translation type="unfinished"/>
+        <translation>Nepaisoma</translation>
     </message>
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="46"/>
         <source>Filesystem access error</source>
-        <translation type="unfinished"/>
+        <translation>Prieigos prie failų sistemos klaida</translation>
     </message>
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="48"/>
@@ -3998,12 +3998,12 @@ Patariama jo nenaudoti.</translation>
         <location filename="../src/libsync/progressdispatcher.cpp" line="53"/>
         <location filename="../src/libsync/progressdispatcher.cpp" line="55"/>
         <source>Unknown</source>
-        <translation type="unfinished"/>
+        <translation>Nežinoma</translation>
     </message>
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="66"/>
         <source>downloading</source>
-        <translation type="unfinished"/>
+        <translation>atsisiunčiama</translation>
     </message>
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="68"/>
@@ -4013,7 +4013,7 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="70"/>
         <source>deleting</source>
-        <translation type="unfinished"/>
+        <translation>ištrinama</translation>
     </message>
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="73"/>
@@ -4042,7 +4042,7 @@ Patariama jo nenaudoti.</translation>
     <message>
         <location filename="../src/libsync/theme.cpp" line="62"/>
         <source>Status undefined</source>
-        <translation type="unfinished"/>
+        <translation>Neapibrėžta būsena</translation>
     </message>
     <message>
         <location filename="../src/libsync/theme.cpp" line="65"/>
