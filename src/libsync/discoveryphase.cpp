@@ -387,8 +387,7 @@ void DiscoverySingleDirectoryJob::directoryListingIteratedSlot(QString file, con
         if (file_stat->type == ItemTypeSkip
             || file_stat->size == -1
             || file_stat->remotePerm.isNull()
-            || file_stat->etag.isEmpty()
-            || file_stat->file_id.isEmpty()) {
+            || file_stat->etag.isEmpty()) {
             _error = tr("The server file discovery reply is missing data.");
             qCWarning(lcDiscovery)
                 << "Missing properties:" << file << file_stat->type << file_stat->size
